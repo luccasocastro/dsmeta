@@ -10,7 +10,7 @@ type Props = {
 }
 
 function handleClick(id: number){
-    axios(`${BASE_URL}/sales/${id}/notification`)
+    axios(`https://dsmeta-production.up.railway.app/sales/${id}/notification`)
         .then(response => {
             toast.info("SMS enviado com sucesso!")
         });
