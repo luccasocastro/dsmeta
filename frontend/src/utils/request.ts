@@ -1,1 +1,1 @@
-export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "https://dsmeta-luxkapotter.herokuapp.com";
+export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "https://dsmeta-production.up.railway.app";
